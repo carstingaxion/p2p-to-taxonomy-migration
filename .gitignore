@@ -1,0 +1,64 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/plugins/*
+!wp-content/plugins/.gitkeep
+wp-content/themes/*
+!wp-content/themes/.gitkeep
+wp-content/cache/
+wp-content/backup-*
+
+# Database
+*.sql
+*.sql.gz
+*.sqlite
+*.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Composer
+/vendor/
+composer.lock
+
+# Node.js & npm
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.sublime-project
+.sublime-workspace
+*.code-workspace
+
+# Build & Runtime
+/dist/
+/build/
+*.log
+.cache/
+
+# OS files
+Thumbs.db
+.DS_Store
+*.pem
+
+# Testing
+/tests/coverage/
+.phpunit.result.cache
+
+# Miscellaneous
+.git/
+.gitignore
+.editorconfig
+.eslintrc*
+.prettierrc*
