@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WordPress/blueprints/master/schema.json",
+  "version": 1,
+  "title": "P2P to Taxonomy Migration",
+  "description": "WordPress Playground blueprint for testing P2P to Taxonomy migration",
+  "landingPage": "/wp-admin/",
+  "steps": [
+    {
+      "step": "activatePlugin",
+      "pluginSlug": "posts-2-posts"
+    },
+    {
+      "step": "activateTheme",
+      "themeSlug": "twentytwentyfour"
+    },
+    {
+      "step": "mkdir",
+      "path": "/tmp/migration-logs"
+    },
+    {
+      "step": "login",
+      "username": "admin",
+      "password": "password"
+    }
+  ]
+}
